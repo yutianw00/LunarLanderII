@@ -25,7 +25,7 @@ More detailed information about the environment can be found [here](https://gym.
 
 This project used the REINFORCE algorithm to train the automate lander and do reinforcement learning. REINFORCE is a policy gradient algorithm, and more specifically, in this case, at each time step, the lander can fire any of the three boasters. 
 
-We want to train an algorithm that decide which engine(boaster) to fire up at each time step. We build a deep neural network to help make that decision and do the training. In each trail, we calculate the reward as specified in the environment description and compute the cost (see function [compute_expected_cost](#)), and do back-tracking gradient descent on the neural network architecture we built and updates the weights accordingly. We kept training for 5000 trails for over 6 hours until the reward converges. 
+We want to train an algorithm that decide which engine(boaster) to fire up at each time step. We build a deep neural network to help make that decision and do the training. In each trail, we calculate the reward as specified in the environment description and compute the cost (see function [compute_expected_cost](https://github.com/yutianw00/LunarLanderII/blob/5bffe0315b831553073f91e8862a6466dcd09654/reinforce.py#L22)), and do back-tracking gradient descent on the neural network architecture we built and updates the weights accordingly. We kept training for 5000 trails for over 6 hours until the reward converges. 
 
 ## 3. Result
 
