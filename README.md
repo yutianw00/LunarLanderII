@@ -31,6 +31,13 @@ We want to train an algorithm that decide which engine(boaster) to fire up at ea
 
 We run our trained automated lander for another 100 times and it landed successfully for 94 times. So it reached an successful rate of 94%. 
 
-## 4. About and Acknowledgement
+## 4. Files in this repository
+
+- README.md: this file. 
+- reinforce.py: Python model building and training file.
+- mypolicy.pth: the file contains the trained weights for the neural network. 
+- lunarlander2.png: a picture used in this file for illustration purpose.
+
+## 5. About and Acknowledgement
 
 This project is a project homework in 10-701 Introducion to Machine Learning in Carnegie Mellon University. Special thanks to the Professors and TAs for teaching this course, designing this assignment, providing the starter code and debuggging help. 
