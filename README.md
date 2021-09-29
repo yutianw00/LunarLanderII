@@ -1,5 +1,8 @@
 # LunarLanderII
 
+*Update Sept 2021:*
+*Since this project is part of homework in Carnegie Mellon University 10701 course Intro to Machine Learning (PhD) and future versions of this course may have similar homework, the code for this project should not be made public. Hence the python script is removed. Sorry for the inconvinience.*
+
 ## 0. Basic Information
 
 - Name: Lunar Lander II, OpenAI Gym Reinforcement Learning Project
@@ -34,7 +37,7 @@ We run our trained automated lander for another 100 times and it landed successf
 ## 4. Files in this repository
 
 - README.md: this file. 
-- reinforce.py: Python model building and training file.
+- reinforce.py: Python model building and training file. (Removed) 
 - mypolicy.pth: the file contains the trained weights for the neural network. 
 - lunarlander2.png: a picture used in this file for illustration purpose.
 
